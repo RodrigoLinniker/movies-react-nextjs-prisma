@@ -32,6 +32,9 @@ O projeto consiste em desenvolver uma página chamada Movies utilizando os conce
  <li>
   <a href="https://tailwindcss.com/" rel="nofollow"> TailwindCSS </a>
  </li>
+ <li>
+  <a href="https://www.themoviedb.org/?language=pt-BR" rel="nofollow"> API de filmes TMDB </a>
+ </li>
 </ul>
 
 ## Fotos
