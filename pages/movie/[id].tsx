@@ -1,6 +1,5 @@
 import axios from "axios";
 import { getSession, useSession } from "next-auth/react";
-import "@vime/core/themes/default.css";
 import { GetServerSideProps } from "next";
 import { Header } from "../../components/Header";
 import { BlackDrop } from "../../components/BlackDrop";
