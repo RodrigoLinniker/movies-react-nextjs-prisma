@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/53402199/196608444-a77ba671-274b-4983-aaed-df137c5c0cbf.png" width="250px"/>
  </div>
  <div align="center">
-O projeto consiste em desenvolver uma página chamada Movies utilizando os conceitos de NextJS, e estilizando com o Tailwind.
+O projeto consiste em desenvolver uma página chamada Movies utilizando os conceitos de NextJS, NexAuth, e estilizando com o Tailwind.
 </div>
 
 ## <h1><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png" width="28px"/> Tecnologias</h1>
