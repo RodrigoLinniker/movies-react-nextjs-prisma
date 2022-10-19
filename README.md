@@ -36,6 +36,10 @@ O projeto consiste em desenvolver uma página chamada Movies utilizando os conce
 
 ## Fotos
 
+ <img src="https://user-images.githubusercontent.com/53402199/196615697-d0c690a3-b986-4af0-858b-4b483c1b3c8f.PNG" width="190%"/>         <img src="https://user-images.githubusercontent.com/53402199/196615672-5f7c0f66-773d-48f6-b644-c97a97e2e8c2.PNG" width="100%"/>
+ 
+ <img src="https://user-images.githubusercontent.com/53402199/196615704-92416c0f-95f0-4f08-a3d1-56c7a3a36b6a.PNG" width="100%"/>
+
 
 
 
