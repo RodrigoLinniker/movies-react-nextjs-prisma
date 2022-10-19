@@ -1,6 +1,9 @@
-![Movie Night-amico](https://user-images.githubusercontent.com/53402199/196608444-a77ba671-274b-4983-aaed-df137c5c0cbf.png)
+<img src="https://user-images.githubusercontent.com/53402199/196608444-a77ba671-274b-4983-aaed-df137c5c0cbf.png" width="250px"/>
 O projeto consiste em desenvolver uma página chamada Movies utilizando os conceitos de NextJS, e estilizando com o Tailwind.
 
+<div>
+<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png"/> Tecnologias
+</div>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
