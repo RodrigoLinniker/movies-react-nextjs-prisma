@@ -2,7 +2,7 @@
 O projeto consiste em desenvolver uma página chamada Movies utilizando os conceitos de NextJS, e estilizando com o Tailwind.
 
 <div>
-<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png"/> Tecnologias
+<img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png" width="28px"/> Tecnologias
 </div>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
