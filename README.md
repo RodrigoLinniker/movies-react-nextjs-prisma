@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+<img src="https://user-images.githubusercontent.com/53402199/196608444-a77ba671-274b-4983-aaed-df137c5c0cbf.png" width="250px"/>
+ </div>
+ <div align="center">
+O projeto consiste em desenvolver uma página chamada Movies utilizando os conceitos de NextJS, NexAuth, e estilizando com o Tailwind.
+</div>
 
-## Getting Started
+## <h1><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png" width="28px"/> Tecnologias</h1>
 
-First, run the development server:
+<ul>
+ <li>
+  <a href="https://reactjs.org/" rel="nofollow"> React </a>
+ </li>
+ <li>
+  <a href="https://www.typescriptlang.org/" rel="nofollow"> Typescript </a>
+ </li>
+ <li>
+  <a href="https://nextjs.org/" rel="nofollow"> NextJS </a>
+ </li>
+ <li>
+  <a href="https://next-auth.js.org/" rel="nofollow"> NextAuthJS </a>
+ </li>
+ <li>
+  <a href="https://github.com/axios/axios" rel="nofollow"> Axios </a>
+ </li>
+ <li>
+  <a href="https://www.prisma.io/" rel="nofollow"> Prisma </a>
+ </li>
+ <li>
+  <a href="https://planetscale.com/" rel="nofollow"> PlanetScale </a>
+ </li>
+ <li>
+  <a href="https://tailwindcss.com/" rel="nofollow"> TailwindCSS </a>
+ </li>
+ <li>
+  <a href="https://www.themoviedb.org/?language=pt-BR" rel="nofollow"> TMDB (API de filmes) </a>
+ </li>
+</ul>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Fotos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ <img src="https://user-images.githubusercontent.com/53402199/196615697-d0c690a3-b986-4af0-858b-4b483c1b3c8f.PNG" width="190%"/>         <img src="https://user-images.githubusercontent.com/53402199/196615672-5f7c0f66-773d-48f6-b644-c97a97e2e8c2.PNG" width="100%"/>
+ 
+ <img src="https://user-images.githubusercontent.com/53402199/196615704-92416c0f-95f0-4f08-a3d1-56c7a3a36b6a.PNG" width="100%"/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
