@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { BsYoutube } from "react-icons/bs";
+import { BsChevronLeft, BsYoutube } from "react-icons/bs";
 
 interface BlackDropProps {
   idVideo?: number;
@@ -10,7 +10,16 @@ interface BlackDropProps {
 export function BlackDrop({ info, idVideo }: BlackDropProps) {
   return (
     <div className="w-full mx-auto flex flex-col items-center">
-      <div>
+      <div className="w-full flex flex-row max-lg:gap-3 lg:gap-16 xl:gap-40 max-w-[1490px]">
+        <Link href="/dashboard">
+          <a className="w-10 h-10">
+            <BsChevronLeft
+              size={40}
+              className="mt-2 hover:text-gray-500 delay-[50ms]"
+            />
+          </a>
+        </Link>
+
         {info.backdrop_path === null || info.backdrop_path === undefined ? (
           <div className="w-[1100px] h-[60vh] m-auto bg-black flex items-center justify-center">
             <strong className="font-medium text-3xl text-red-500">
@@ -26,6 +35,7 @@ export function BlackDrop({ info, idVideo }: BlackDropProps) {
           />
         )}
       </div>
+
       {idVideo ? (
         <Link href={`https://www.youtube.com/watch?v=${idVideo}`}>
           <a>
