@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export default function middleware(req: NextRequest){
-    let session = req.cookies.get("next-auth.session-token");
+    let session = req.cookies.get(`${process.env.SESSIONAUTH}`);
     let url = req.url;
     const nextURL = `${process.env.NEXTAUTH_URL}`;
 
