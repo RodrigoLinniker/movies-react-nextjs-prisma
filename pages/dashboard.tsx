@@ -19,11 +19,22 @@ interface Movie {
 }
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
+  const session = await getSession(context);
   const res = await axios.get(`${process.env.NEXTAUTH_URL}/api/trending`);
   const json = await res.data;
 
+  if (!session) {
+    return {
+      redirect: {
+        destination: "/",
+        permanent: false,
+      },
+    };
+  }
+
   return {
     props: {
+      session,
       listTrending: json.listTrending,
       listPopular: json.listPopular,
     },
