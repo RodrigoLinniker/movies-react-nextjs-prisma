@@ -3,26 +3,6 @@ import Image from "next/image";
 import Logo from "../assets/logo.svg";
 import { BsGithub, BsGoogle } from "react-icons/bs";
 import Head from "next/head";
-import { GetServerSideProps } from "next";
-
-export const getServerSideProps: GetServerSideProps = async (context) => {
-  const session = await getSession(context);
-
-  if (session) {
-    return {
-      redirect: {
-        destination: "/dashboard",
-        permanent: false,
-      },
-    };
-  }
-
-  return {
-    props: {
-      session,
-    },
-  };
-};
 
 export default function Home() {
   return (
